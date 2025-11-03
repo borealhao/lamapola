@@ -17,24 +17,25 @@
     <div class="left-column">
         <a href="https://comic-git.gitbook.io/documentation">
             <img src="your_content/images/logo.png"
-                 alt="comic_git logo: if you can draw it, you can build it!"
+                 alt="smbau?"
                  title="Click here to go to the comic_git help docs!">
         </a>
     </div>
 
     <div class="right-column">
-        <p>This is your home page! It's the main landing page for anyone visiting your website, so make sure it looks good!</p>
-
+        <p>Hey! Glad you could make it. This website is currently a work in progress. Vinea can't do everything y'know.</p>
+        
+        <!--
         <p>You can change what's on this page by editing the file found at <code>/your_content/home page.txt</code>.
             I've even included comments in that file to help you out, if you're new to HTML.</p>
 
         <p>You'll probably want to have links like these to your <a href="comic/001/#comic-page">first</a> and
             <a href="latest/#comic-page">last</a> comic pages on your homepage. Or you can use buttons like those below!</p>
 
-        <!-- If you want to make your link look like a button, add class="button" to your 'a' tag like so: -->
+        If you want to make your link look like a button, add class="button" to your 'a' tag like so: 
         <a class="button" href="comic/001/#comic-page">First Page</a>
         <a class="button" href="latest/#comic-page">Latest Page</a>
-
+        -->
         <!--
         If you want to set some information apart, you can set the class as "infobox"! That will put your content in a
         different block of color, which can be defined in stylesheet.css.
