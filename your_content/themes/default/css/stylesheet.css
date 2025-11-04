@@ -46,7 +46,7 @@ img.comic {
 }
 
 /* Phones or narrow windows: make it full width */
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
   #comic img,
   .comic-image,
   img.comic {
