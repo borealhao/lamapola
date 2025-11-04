@@ -39,7 +39,7 @@ img.comic {
   display: block;
   margin: 0 auto;
   height: auto;
-  max-width: 100%;
+  width: min(100%, 50vw);
 }
 
 /* Large screens: comic takes up half the screen */
@@ -52,7 +52,7 @@ img.comic {
 }
 
 /* Medium screens: comic fills the available window (no extra shrinking) */
-@media (max-width: 1600px) and (min-width: 800px) {
+@media (min-width: 800px) {
   #comic img,
   .comic-image,
   img.comic {
