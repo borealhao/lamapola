@@ -32,44 +32,24 @@ a.navigation-button-disabled {
   }
 }
 
-/* Comic container - keeps layout predictable */
-
-/* no width here so it can flow naturally within the page layout */
-
-/* Desktop & large screens: left-aligned comic at half the viewport width */
-@media (min-width: 801px) {
-  #comic {
-    max-width: 50vw;   /* container is half the viewport wide */
-    margin: 0;         /* align container to the left of its parent */
-    padding: 0;
-  }
-
-  #comic img,
-  .comic-image,
-  img.comic {
-    display: block;
-    width: 100%;       /* fill the container (which is 50vw) */
-    height: auto;
-    margin: 0;         /* no auto-centering — keeps it flush left */
-    max-width: none;
-  }
+/* Comic image responsiveness */
+#comic img,
+.comic-image,
+img.comic {
+  margin-left: 0;   /* remove centering */
+  margin-right: auto;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  width: 50vw;        /* Half the screen normally */
+  max-width: 80%;    /* Never overflow */
 }
 
-/* Mobile / narrow windows: full-width and centered for readability */
+/* Phones or narrow windows: make it full width */
 @media (max-width: 800px) {
-  #comic {
-    max-width: 100%;
-    margin: 0 auto;    /* center the content area on small screens */
-    padding: 0 1rem;   /* small side padding for breathing room */
-  }
-
   #comic img,
   .comic-image,
   img.comic {
     width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;    /* center the image inside the container */
-    max-width: 100%;
   }
 }
