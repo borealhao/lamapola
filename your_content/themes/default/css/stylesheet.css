@@ -38,7 +38,33 @@ a.navigation-button-disabled {
 img.comic {
   display: block;
   margin: 0 auto;
-  width: 50vw;      /* 50% of the viewport width */
-  height: auto;     /* maintain aspect ratio */
-  max-width: 100%;  /* prevents it from overflowing the container */
+  height: auto;
+  max-width: 100%;
+}
+
+/* Large screens: comic takes up half the screen */
+@media (min-width: 1600px) {
+  #comic img,
+  .comic-image,
+  img.comic {
+    width: 50vw;
+  }
+}
+
+/* Medium screens: comic fills the available window (no extra shrinking) */
+@media (max-width: 1600px) and (min-width: 800px) {
+  #comic img,
+  .comic-image,
+  img.comic {
+    width: 100%;
+  }
+}
+
+/* Small screens (phones, narrow windows): comic scales with window */
+@media (max-width: 800px) {
+  #comic img,
+  .comic-image,
+  img.comic {
+    width: 100%;
+  }
 }
