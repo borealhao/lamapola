@@ -42,7 +42,7 @@ img.comic {
   margin: 0 auto;
   height: auto;
   width: 50vw;        /* Half the screen normally */
-  max-width: 90%;    /* Never overflow */
+  max-width: 80%;    /* Never overflow */
 }
 
 /* Phones or narrow windows: make it full width */
