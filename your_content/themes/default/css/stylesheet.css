@@ -33,9 +33,8 @@ a.navigation-button-disabled {
 }
 
 /* Comic container - keeps layout predictable */
-#comic {
-  /* no width here so it can flow naturally within the page layout */
-}
+
+/* no width here so it can flow naturally within the page layout */
 
 /* Desktop & large screens: left-aligned comic at half the viewport width */
 @media (min-width: 801px) {
