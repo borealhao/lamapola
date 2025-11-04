@@ -10,7 +10,7 @@ or use this list of available color names: https://www.w3schools.com/cssref/css_
 
 /* Global values */
 body {
-    font-family: 'PT Sans', sans-serif;  /* The font of all the text on all pages */
+    font-family: Verdana, Geneva, sans-serif;  /* The font of all the text on all pages */
     color: black;  /* The color of the font of all of the text on your whole website, except links.
                       If you want to change the color of text in certain parts of the page, and not the whole site,
                       you can define `color` in other blocks and it will only apply to that element and all
@@ -21,7 +21,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: 'Roboto Slab', cursive;
+    font-family: Verdana, Geneva, sans-serif;
 }
 
 a {
@@ -96,7 +96,7 @@ code {
 #post-title {
     color: black;  /* Color of the post title */
     font-size: 3em;  /* Font size of the post title */
-    font-family: 'Roboto Slab', cursive;
+    font-family: Verdana, Geneva, sans-serif;
 }
 
 #post-date {
