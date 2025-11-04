@@ -42,7 +42,9 @@
 
 <hr>
 
-<!--<h2 id="comic-blinker">vvv I MADE A COMIC CHECK IT OUT! vvv</h2>-->
+<!--
+<h2 id="comic-blinker">vvv I MADE A COMIC CHECK IT OUT! vvv</h2>
+-->
 
 {% block content %}{% endblock %}
 
