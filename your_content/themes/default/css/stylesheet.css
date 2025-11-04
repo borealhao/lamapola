@@ -36,6 +36,8 @@ a.navigation-button-disabled {
 #comic img,
 .comic-image,
 img.comic {
+  margin-left: 0;   /* remove centering */
+  margin-right: auto;
   display: block;
   margin: 0 auto;
   height: auto;
