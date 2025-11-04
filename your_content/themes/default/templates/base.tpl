@@ -51,7 +51,7 @@
 <div id="powered-by">
     © 2022 - <span id="year"></span> Hao Huynh |
     Powered by <a id="powered-by-link" href="https://www.comic-git.com">comic_git</a> v{{ version }} |
-    Site designed/maintained by Vinea. this is a test
+    Site designed/maintained by Vinea
 </div>
 
 <script>
