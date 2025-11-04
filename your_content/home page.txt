@@ -39,9 +39,8 @@
         <!--
         If you want to set some information apart, you can set the class as "infobox"! That will put your content in a
         different block of color, which can be defined in stylesheet.css.
-        <p class="infobox">(You will need to manually update the link to your first comic page yourself, but the
-            <code>latest</code> page will always point to your newest comic!)</p>
         -->
+        <p class="infobox">While you're waiting, check out <a href="https://lamapola.miraheze.org/wiki/Main_Page">our official wikipedia</a> and <a href="https://bsky.app/profile/borealhao.bsky.social">Hao's bluesky</a>!</p>
     </div>
 </div>
 <!-- That's the end of the column layout! Everything below this is just normal HTML. -->
