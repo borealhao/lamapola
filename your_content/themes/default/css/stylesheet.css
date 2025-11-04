@@ -41,7 +41,7 @@ img.comic {
   display: block;
   margin: 0 auto;
   height: auto;
-  width: 50vw;        /* Half the screen normally */
+  width: 40vw;        /* Half the screen normally */
   max-width: 100%;    /* Never overflow */
 }
 
