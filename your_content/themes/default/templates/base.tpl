@@ -49,8 +49,15 @@
 {% block content %}{% endblock %}
 
 <div id="powered-by">
-    © 2022 - 2025 Hao Huynh | Powered by <a id="powered-by-link" href="https://www.comic-git.com">comic_git</a> v{{ version }} | Site designed/maintained by Vinea
+    © 2022 - <span id="year"></span> Hao Huynh |
+    Powered by <a id="powered-by-link" href="https://www.comic-git.com">comic_git</a> v{{ version }} |
+    Site designed/maintained by Vinea
 </div>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
 {% endblock %}
 </body>
 {% block script %}{% endblock %}
