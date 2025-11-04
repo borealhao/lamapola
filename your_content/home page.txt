@@ -23,7 +23,7 @@
     </div>
 
     <div class="right-column">
-        <p>Hey! Glad you could make it. This website is currently a work in progress. Vinea can't do everything y'know.</p>
+        <p>Hey! Glad you could make it. This website is currently a work in progress. Rome wasn't built in a day!</p>
         
         <!--
         <p>You can change what's on this page by editing the file found at <code>/your_content/home page.txt</code>.
