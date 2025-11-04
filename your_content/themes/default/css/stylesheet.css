@@ -31,3 +31,14 @@ a.navigation-button-disabled {
     opacity: 0;
   }
 }
+
+/* Comic image responsiveness */
+#comic img,
+.comic-image,
+img.comic {
+  display: block;
+  margin: 0 auto;
+  width: 50vw;      /* 50% of the viewport width */
+  height: auto;     /* maintain aspect ratio */
+  max-width: 100%;  /* prevents it from overflowing the container */
+}
