@@ -28,6 +28,117 @@ a {
     color: #2E9BC7;  /* The color of the hyperlinks */
 }
 
+/* ===== SIDEBAR ===== */
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 100%;
+  background-color: #e6d9ca;
+  color: #756e88;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 4px 0 10px rgba(0,0,0,0.25);
+  overflow-y: auto;
+  transition: transform 0.3s ease;
+  z-index: 1000;
+}
+
+/* Sidebar title + description */
+#sitetitle {
+  font-family: Verdana, Geneva, sans-serif;
+  color: #756e88;
+  font-size: 1.5em;
+}
+
+#site-description {
+  font-size: 0.8em;
+  color: #756e88;
+  margin-bottom: 20px;
+}
+
+/* Navigation links */
+#navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#navigation li {
+  margin: 6px 0;
+}
+
+#navigation a {
+  display: block;
+  padding: 6px;
+  background-color: #756e88;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+  border-radius: 4px;
+}
+
+#navigation a:hover {
+  background-color: #9c92b6;
+  color: #FFA824;
+}
+
+/* Sidebar toggle button (hidden on desktop) */
+#sidebar-toggle {
+  display: none;
+  background: #756e88;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 1.2em;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* Content shift when sidebar visible */
+#content {
+  margin-left: 300px;
+  padding: 20px;
+  transition: margin-left 0.3s ease;
+}
+
+/* ===== COLLAPSE ON MID-SIZE SCREENS ===== */
+@media (max-width: 1200px) {
+  #sidebar {
+    transform: translateX(-100%);
+  }
+
+  #sidebar.open {
+    transform: translateX(0);
+  }
+
+  #sidebar-toggle {
+    display: inline-block;
+  }
+
+  #content {
+    margin-left: 0;
+  }
+}
+
+/* ===== MOBILE FRIENDLY ===== */
+@media (max-width: 768px) {
+  #sidebar {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  #content {
+    margin-top: 60px;
+    margin-left: 0;
+  }
+}
+
 #container {
     max-width: 1000px;  /* The width of the main box that contains all content on the pages */
     background-color: white;  /* The background color of the main box */
