@@ -24,11 +24,11 @@ h1#post-title {
 }
 
 a {
-    color: blue;
+    color: rgb(70, 70, 216);
 }
 
 a.navigation-button {
-    color: blue;
+    color: rgb(70, 70, 216);
 }
 
 a.navigation-button-disabled {
