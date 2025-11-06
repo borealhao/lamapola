@@ -8,6 +8,8 @@ body {
 */
 
 body {
+  color: rgb(76, 91, 76);
+  font-family: Verdana, Geneva, sans-serif;
   background-image: repeating-linear-gradient(
     45deg,
     #111 0px,
