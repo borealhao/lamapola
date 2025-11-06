@@ -101,7 +101,7 @@ const smileys = [
   'uwu',
   'OwO',
   'UwU',
-  '¯\_(ツ)_/¯'
+  '¯\\_(ツ)_/¯'
 ];
 document.getElementById('nav-smiley').textContent =
     smileys[Math.floor(Math.random() * smileys.length)];
