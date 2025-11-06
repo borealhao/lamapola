@@ -29,23 +29,6 @@
     {%- endblock %}
 </head>
 <body>
-  <div id="sidebar">
-    <h1 id="sitetitle">L'amapola</h1>
-    <p id="site-description">A webcomic by Hao</p>
-
-    <button id="sidebar-toggle">☰</button>
-
-    <ul id="navigation">
-      <li><a href="{{ comic_base_dir }}/">Home</a></li>
-      <li><a href="{{ comic_base_dir }}/archive/">Archive</a></li>
-      <li><a href="{{ comic_base_dir }}/infinite_scroll/">Infinite Scroll</a></li>
-      <li><a href="{{ comic_base_dir }}/about/">About</a></li>
-    </ul>
-
-    <img src="{{ base_dir }}/your_content/images/sidebar_image.png"
-         alt="Sidebar art"
-         class="customimage">
-  </div>
 
 {% block body %}
 <h1>Welcome to {{ comic_title }}!</h1>
@@ -77,12 +60,6 @@
 </script>
 
 {% endblock %}
-
-<script>
-document.getElementById("sidebar-toggle").addEventListener("click", function() {
-  document.getElementById("sidebar").classList.toggle("open");
-});
-</script>
 
 </body>
 {% block script %}{% endblock %}
