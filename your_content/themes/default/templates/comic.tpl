@@ -76,10 +76,11 @@
     init();
 </script>
 {% endif %}
-{%- endblock %}
 
 <script>
 const smileys = [':3', ':-)', '^_^', ':D', 'UwU', '(•‿•)'];
 document.getElementById('nav-smiley').textContent =
     smileys[Math.floor(Math.random() * smileys.length)];
 </script>
+
+{%- endblock %}
