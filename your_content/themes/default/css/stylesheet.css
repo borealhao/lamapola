@@ -1,9 +1,22 @@
+/* 
 body {
     color: lime;
     font-family: Verdana, Geneva, sans-serif;
     /*text-align: left;*/
-    background-image: url("../images/stars_bg.gif");
+    /* background-image: url("../images/stars_bg.gif");
+}  */
+*/
+
+body {
+  background-image: repeating-linear-gradient(
+    45deg,
+    #111 0px,
+    #111 2px,
+    #222 2px,
+    #222 4px
+  );
 }
+
 
 h1#post-title {
     color: magenta;  /* Color of the page title */
