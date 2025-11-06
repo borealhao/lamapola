@@ -24,10 +24,12 @@ a.navigation-button-disabled {
 }
 
 #nav-smiley {
-  margin: 0 1em;
-  font-size: 1.5em;
-  color: yellow;
-  animation: bounce 1.5s infinite ease-in-out;
+  display: inline-block;
+  margin: 0 0.5em;
+  font-size: 1em; /* Match link text size */
+  color: rgb(214, 230, 40); 
+  vertical-align: middle;
+  font-weight: normal;
 }
 
 @keyframes bounce {
