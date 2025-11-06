@@ -16,7 +16,7 @@ body {
 
 
 h1#post-title {
-    color: magenta;  /* Color of the page title */
+    color: rgb(0, 0, 0);  /* Color of the page title */
     font-size: 3em;  /* Font size of the post title */
 }
 
@@ -29,7 +29,7 @@ a.navigation-button {
 }
 
 a.navigation-button-disabled {
-    color: white;  /* Color of the disabled navigation bar hyperlinks */
+    color: rgb(178, 178, 178);  /* Color of the disabled navigation bar hyperlinks */
 }
 
 #comic-blinker {
