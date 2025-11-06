@@ -37,7 +37,7 @@
 <h2>Look at my cool links!</h2>
 {%- for link in links %}
     <a href="{{ link.url }}">{{ link.name }}</a>
-    {% if not loop.last %}<img src="{{ base_dir }}/your_content/themes/geocities/images/dance.gif" width="50px;">{% endif %}
+    {% if not loop.last %} | {% endif %}
 {%- endfor %}
 
 <hr>
