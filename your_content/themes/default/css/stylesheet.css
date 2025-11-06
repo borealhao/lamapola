@@ -32,9 +32,11 @@ a.navigation-button-disabled {
   font-weight: normal;
 }
 
-@keyframes bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-3px); }
+#navigation-bar {
+    display: flex;          /* enables flex layout */
+    justify-content: center; /* centers items horizontally */
+    gap: 1em;               /* optional: space between buttons */
+    flex-wrap: wrap;        /* optional: wrap to next line if screen is narrow */
 }
 
 #comic-blinker {
