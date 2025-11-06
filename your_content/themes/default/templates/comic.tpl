@@ -12,6 +12,8 @@
         </a>
     </div>
 
+    <br>
+
     <div id="navigation-bar">
     {% if first_id == current_id %}
         <a class="navigation-button-disabled">‹‹ First</a>
