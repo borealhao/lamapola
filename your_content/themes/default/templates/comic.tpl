@@ -20,7 +20,10 @@
         <a class="navigation-button" href="{{ comic_base_dir }}/comic/{{ first_id }}/#comic-page">‹‹ First</a>
         <a class="navigation-button" href="{{ comic_base_dir }}/comic/{{ previous_id }}/#comic-page">‹ Previous</a>
     {% endif %}
+
     {# The block below is the same as the one above, except it checks if you're on the last page. #}
+    <span id="nav-smiley">:3</span>
+
     {% if last_id == current_id %}
         <a class="navigation-button-disabled">Next ›</a>
         <a class="navigation-button-disabled">Last ››</a>
@@ -74,3 +77,9 @@
 </script>
 {% endif %}
 {%- endblock %}
+
+<script>
+const smileys = [':3', ':-)', '^_^', ':D', 'UwU', '(•‿•)'];
+document.getElementById('nav-smiley').textContent =
+    smileys[Math.floor(Math.random() * smileys.length)];
+</script>
